@@ -1,0 +1,23 @@
+{
+  "name": "es6pattern",
+  "version": "1.0.0",
+  "description": "rewrite javascript patterns with es6 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node test/test",
+    "start": "babel patterns -d libs && node index",
+    "build": "babel patterns -d libs"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "pattern"
+  ],
+  "author": "leonhardt",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
